@@ -46,12 +46,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block; }
 
 body {
-  background: black; }
+  background: -moz-linear-gradient(top, #212123, #124469);
+  background: -o-linear-gradient(top, #212123, #124469);
+  background: -webkit-linear-gradient(top, #212123, #124469);
+  background: linear-gradient(to bottom, #212123, #124469); }
+
+h1 {
+  font-size: 96px;
+  color: white;
+  text-shadow: 0 0 32px #124469;
+  font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  text-align: center;
+  margin-top: -18px; }
 
 .container {
   background: white;
   background-size: 100%;
-  border-radius: 70px;
+  border-radius: 80px;
   width: 512px;
   height: 512px;
   margin: 40px auto;
@@ -61,7 +72,7 @@ figure {
   display: block;
   width: 206px;
   height: 134px;
-  opacity: 0.6;
+  opacity: 0.7;
   border-radius: 162px;
   position: absolute;
   overflow: hidden;
@@ -89,10 +100,10 @@ figure {
     -webkit-transform: rotateZ(135deg);
     transform: rotateZ(135deg); }
   figure:nth-child(1) {
-    background: -moz-linear-gradient(left, #ffba1a, #ff8600);
-    background: -o-linear-gradient(left, #ffba1a, #ff8600);
-    background: -webkit-linear-gradient(left, #ffba1a, #ff8600);
-    background: linear-gradient(to right, #ffba1a, #ff8600);
+    background: -moz-radial-gradient(left, #e88730, #ff8600);
+    background: -o-radial-gradient(left, #e88730, #ff8600);
+    background: -webkit-radial-gradient(left, #e88730, #ff8600);
+    background: radial-gradient(left, #e88730, #ff8600);
     -moz-transform: rotateZ(90deg);
     -ms-transform: rotateZ(90deg);
     -o-transform: rotateZ(90deg);
@@ -101,22 +112,22 @@ figure {
     figure:nth-child(1):after {
       background-color: #1b0100; }
   figure:nth-child(2) {
-    background: -moz-linear-gradient(left, #e4de24, #ffea00);
-    background: -o-linear-gradient(left, #e4de24, #ffea00);
-    background: -webkit-linear-gradient(left, #e4de24, #ffea00);
-    background: linear-gradient(to right, #e4de24, #ffea00);
+    background: -moz-linear-gradient(left, #ffec1b, #e58221);
+    background: -o-linear-gradient(left, #ffec1b, #e58221);
+    background: -webkit-linear-gradient(left, #ffec1b, #e58221);
+    background: linear-gradient(to right, #ffec1b, #e58221);
     -moz-transform: rotateZ(135deg);
     -ms-transform: rotateZ(135deg);
     -o-transform: rotateZ(135deg);
     -webkit-transform: rotateZ(135deg);
     transform: rotateZ(135deg); }
     figure:nth-child(2):after {
-      background-color: #a4600f; }
+      background-color: #cf6c1e; }
   figure:nth-child(3) {
-    background: -moz-linear-gradient(left, #7bce30, #deff00);
-    background: -o-linear-gradient(left, #7bce30, #deff00);
-    background: -webkit-linear-gradient(left, #7bce30, #deff00);
-    background: linear-gradient(to right, #7bce30, #deff00);
+    background: -moz-linear-gradient(left, #b0c841, #5bb574);
+    background: -o-linear-gradient(left, #b0c841, #5bb574);
+    background: -webkit-linear-gradient(left, #b0c841, #5bb574);
+    background: linear-gradient(to right, #b0c841, #5bb574);
     -moz-transform: rotateZ(180deg);
     -ms-transform: rotateZ(180deg);
     -o-transform: rotateZ(180deg);
@@ -125,10 +136,10 @@ figure {
     figure:nth-child(3):after {
       background-color: #658119; }
   figure:nth-child(4) {
-    background: -moz-linear-gradient(left, #1fe0d5, #39dd7a);
-    background: -o-linear-gradient(left, #1fe0d5, #39dd7a);
-    background: -webkit-linear-gradient(left, #1fe0d5, #39dd7a);
-    background: linear-gradient(to right, #1fe0d5, #39dd7a);
+    background: -moz-linear-gradient(left, #38ca7f, #39dd7a);
+    background: -o-linear-gradient(left, #38ca7f, #39dd7a);
+    background: -webkit-linear-gradient(left, #38ca7f, #39dd7a);
+    background: linear-gradient(to right, #38ca7f, #39dd7a);
     -moz-transform: rotateZ(225deg);
     -ms-transform: rotateZ(225deg);
     -o-transform: rotateZ(225deg);
@@ -137,10 +148,10 @@ figure {
     figure:nth-child(4):after {
       background-color: #26571a; }
   figure:nth-child(5) {
-    background: -moz-linear-gradient(left, #3577e5, #42b0fd);
-    background: -o-linear-gradient(left, #3577e5, #42b0fd);
-    background: -webkit-linear-gradient(left, #3577e5, #42b0fd);
-    background: linear-gradient(to right, #3577e5, #42b0fd);
+    background: -moz-linear-gradient(left, #3577e5, #5331a1);
+    background: -o-linear-gradient(left, #3577e5, #5331a1);
+    background: -webkit-linear-gradient(left, #3577e5, #5331a1);
+    background: linear-gradient(to right, #3577e5, #5331a1);
     -moz-transform: rotateZ(270deg);
     -ms-transform: rotateZ(270deg);
     -o-transform: rotateZ(270deg);
@@ -149,10 +160,10 @@ figure {
     figure:nth-child(5):after {
       background-color: #023a26; }
   figure:nth-child(6) {
-    background: -moz-linear-gradient(left, #d300ff, #6028fb);
-    background: -o-linear-gradient(left, #d300ff, #6028fb);
-    background: -webkit-linear-gradient(left, #d300ff, #6028fb);
-    background: linear-gradient(to right, #d300ff, #6028fb);
+    background: -moz-linear-gradient(left, #9d7fc5, #6028fb);
+    background: -o-linear-gradient(left, #9d7fc5, #6028fb);
+    background: -webkit-linear-gradient(left, #9d7fc5, #6028fb);
+    background: linear-gradient(to right, #9d7fc5, #6028fb);
     -moz-transform: rotateZ(315deg);
     -ms-transform: rotateZ(315deg);
     -o-transform: rotateZ(315deg);
@@ -161,10 +172,10 @@ figure {
     figure:nth-child(6):after {
       background-color: #001257; }
   figure:nth-child(7) {
-    background: -moz-linear-gradient(left, #fe37bf, #ff00b0);
-    background: -o-linear-gradient(left, #fe37bf, #ff00b0);
-    background: -webkit-linear-gradient(left, #fe37bf, #ff00b0);
-    background: linear-gradient(to right, #fe37bf, #ff00b0);
+    background: -moz-radial-gradient(left, #db83d4, #ff00b0);
+    background: -o-radial-gradient(left, #db83d4, #ff00b0);
+    background: -webkit-radial-gradient(left, #db83d4, #ff00b0);
+    background: radial-gradient(left, #db83d4, #ff00b0);
     -moz-transform: rotateZ(0deg);
     -ms-transform: rotateZ(0deg);
     -o-transform: rotateZ(0deg);
@@ -173,14 +184,15 @@ figure {
     figure:nth-child(7):after {
       background-color: #640736; }
   figure:nth-child(8) {
-    background: -moz-linear-gradient(left, #ff480a, #ff1a15);
-    background: -o-linear-gradient(left, #ff480a, #ff1a15);
-    background: -webkit-linear-gradient(left, #ff480a, #ff1a15);
-    background: linear-gradient(to right, #ff480a, #ff1a15);
+    background: -moz-linear-gradient(left, #ff480a, #b83f03);
+    background: -o-linear-gradient(left, #ff480a, #b83f03);
+    background: -webkit-linear-gradient(left, #ff480a, #b83f03);
+    background: linear-gradient(to right, #ff480a, #b83f03);
     -moz-transform: rotateZ(45deg);
     -ms-transform: rotateZ(45deg);
     -o-transform: rotateZ(45deg);
     -webkit-transform: rotateZ(45deg);
     transform: rotateZ(45deg); }
     figure:nth-child(8):after {
-      background-color: #6a0404; }
+      background-color: #6a0404;
+      z-index: 100; }
